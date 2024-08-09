@@ -143,6 +143,7 @@ public class Login extends JFrame {
 
     // Metodo principal para ejecutar la aplicación
     public static void main(String[] args) {
+    	System.out.println("Este es un mensaje nuevo");
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Login().setVisible(true); // Crea y muestra la ventana de inicio de sesion
